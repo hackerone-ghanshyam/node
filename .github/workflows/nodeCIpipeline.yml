@@ -23,7 +23,7 @@ jobs:
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'   # 👈 yaha tum apna version fix kar rahe ho
+          node-version: '15'   # 👈 yaha tum apna version fix kar rahe ho
           cache: 'npm'
 
       - name: 📦 Install dependencies
